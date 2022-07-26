@@ -1,7 +1,8 @@
 /* =================HERO================ */
 
 .hero {
-    background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) , url(/images/Img\(6\).jpg) ;
+    background-size: cover;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -47,6 +48,16 @@
     margin-right: 30px;
 }
 
+.advantages-icon {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .title-desc-advantages {
     font-weight: 700;
@@ -141,7 +152,79 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-color);
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-list-link {
+    width: 44px;
+    height: 44px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list-icon {
+    fill: var(--icon-color);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--hover-color);
+}
+
+.social-list-link:hover svg,
+.social-list-link:focus svg {
+    fill: #fff;
 }
 
 /* =================PHOTOS AND MINI-DESCRIPTION OF "OUR TEAM"================ */
 /* =================OUR TEAM================ */
+/* =================reglar-customers================ */
+
+.regular-customers-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.regular-customers-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.regular-customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.regular-customers-icon-item {
+    fill: var(--icon-color);
+}
+
+.regular-customers-link:hover,
+.regular-customers-link:focus {
+    border: 1px solid var(--hover-color);
+}
+
+.regular-customers-link:hover svg,
+.regular-customers-link:focus svg {
+    fill: var(--hover-color);
+}
+
+/* =================reglar-customers================ */

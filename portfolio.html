@@ -36,10 +36,18 @@
           </nav>
           <ul class="header-contact list">
             <li class="header-contact-item">
-              <a class="header-contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="header-contact-email link" href="mailto:info@devstudio.com">
+                <svg class="contact-list-icon" width="16" height="12">
+                  <use href="/images/symbol-defs.svg#email"></use>
+                </svg> 
+                info@devstudio.com</a>
             </li>
             <li class="header-contact-item">
-              <a class="header-contact-phone-number link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="header-contact-phone-number link" href="tel:+380961111111">
+                <svg class="contact-list-icon" width="10" height="16">
+                  <use href="/images/symbol-defs.svg#phone"></use>
+                </svg> 
+                +38 096 111 11 11</a>
             </li>
           </ul>
         </div>  
@@ -183,9 +191,9 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container footer-container">
-        <!--Navigating to other pages footer-->
-        <nav class="footer-nav">
-         <a class="logo-web link" href="index.html">Web<span class="logo-studio link">Studio</span></a>
+         <div class="footer-container-logo-address">
+          <a class="logo-web link" href="index.html">Web<span class="logo-studio link">Studio</span></a>
+         <address>
           <ul class="footer-menu list">
             <!--logo footer-->
             <li class="footer-menu-item link">
@@ -198,7 +206,41 @@
               <a class="footer-menu-phone-number link" href="tel:+380991111111">+38 099 111 11 11</a>
             </li>
           </ul>
-        </nav>
+        </address>
+         </div>
+        <div class="footer-container-title-social-list">
+          <h2 class="join-title">приєднуйтесь</h2>
+        <ul class="footer-social-list list">
+          <li>
+            <a href="" class="footer-social-list-link link">
+              <svg width="20" height="20" class="footer-social-list-icon">
+                <use href="/images/symbol-defs.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="footer-social-list-link link">
+              <svg width="20" height="16" class="footer-social-list-icon">
+                <use href="/images/symbol-defs.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="footer-social-list-link link">
+              <svg width="10" height="20" class="footer-social-list-icon">
+                <use href="/images/symbol-defs.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="footer-social-list-link link">
+              <svg width="20" height="20" class="footer-social-list-icon">
+                <use href="/images/symbol-defs.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
       </div>  
     </footer>
   </body>

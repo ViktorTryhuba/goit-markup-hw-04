@@ -2,6 +2,7 @@
     --primary-color: #757575;
     --secondary-color: #FFF;
     --hover-color: #2196F3;
+    --icon-color: #AFB1B8;
 }
 
 h1,
@@ -119,7 +120,8 @@ body {
 } 
 
 .header-contact-item:nth-last-child(n+2) {
-    margin-right: 40px;
+    margin-right: 30px;
+    align-items: center;
 }
 
 .header-contact-email,
@@ -130,16 +132,27 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-color);
     display: flex;
+    align-items: center;
 }
 
-.contact-img {
+.contact-list-icon {
+    fill: var(--primary-color);
     margin-right: 10px;
 }
 
 .menu-link:hover,
 .menu-link:focus,
 .header-contact-item a:hover,
-.header-contact-item a:focus { color: var(--hover-color); }
+.header-contact-item a:focus {
+    color: var(--hover-color);
+}
+
+.header-contact-email:hover .contact-list-icon,
+.header-contact-email:focus .contact-list-icon,
+.header-contact-phone-number:hover .contact-list-icon,
+.header-contact-phone-number:focus .contact-list-icon {
+    fill: var(--hover-color);
+}
 
 /* =================HEADER=================== */
 /* =================FOOTER=================== */
@@ -148,6 +161,14 @@ body {
     background-color: #2F303A; 
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-container-logo-address {
+    margin-right: 70px;
 }
 
 .footer-container .logo-web { 
@@ -177,5 +198,40 @@ body {
 
 .footer-menu-item a:hover,
 .footer-menu-item a:focus { color: var(--hover-color); }
+
+.footer-container-title-social-list {
+    margin-top: 12px;
+}
+
+.join-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social-list-link {
+    fill: var(--secondary-color);
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-list-link:hover ,
+.footer-social-list-link:focus {
+    background-color: var(--hover-color);
+}
 
 /* =================FOOTER=================== */
