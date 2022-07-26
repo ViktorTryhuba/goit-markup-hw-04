@@ -1,7 +1,7 @@
 /* =================HERO================ */
 
 .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) , url(/images/herobackground.jpg) ;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) , url(./images/herobackground.jpg) ;
     background-size: cover;
     text-align: center;
     padding-top: 200px;
@@ -187,7 +187,7 @@
 
 /* =================PHOTOS AND MINI-DESCRIPTION OF "OUR TEAM"================ */
 /* =================OUR TEAM================ */
-/* =================reglar-customers================ */
+/* =================regular-customers================ */
 
 .regular-customers-title {
     font-weight: 700;
